@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.github.wmz7year</groupId>
+	<artifactId>wmz7year-rpc-framework</artifactId>
+	<version>0.0.1-alpha</version>
+	<packaging>jar</packaging>
+
+	<name>wmz7year-rpc-framework</name>
+
+	<url>https://github.com/wmz7year/wmz7year-rpc-framework</url>
+
+	<description>Apache Thrift Client connection pool</description>
+	<inceptionYear>2016</inceptionYear>
+
+	<developers>
+		<developer>
+			<name>Jiang wei</name>
+			<email>me@wmz7year.com</email>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>
+         scm:git:https://github.com/wmz7year/wmz7year-rpc-framework.git
+     	 </connection>
+		<developerConnection>
+         scm:git:https://github.com/wmz7year/wmz7year-rpc-framework.git
+     	</developerConnection>
+		<url>https://github.com/wmz7year/wmz7year-rpc-framework/</url>
+		<tag>HEAD</tag>
+	</scm>
+
+	<properties>
+		<!-- project settings -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.7</java.version>
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.7</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+	</dependencies>
+</project>
